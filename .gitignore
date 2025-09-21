@@ -1,4 +1,9 @@
+# VS Code
 .vscode/
+
+# Zed
 .zed/
-build/
-target/
+
+# pixi environments
+.pixi/*
+!.pixi/config.toml
