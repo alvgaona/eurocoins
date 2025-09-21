@@ -1,0 +1,17 @@
+[workspace]
+name = "eurocoins"
+description = "Eurocoins is a Python package for working with Euro coins."
+authors = ["Alvaro J. Gaona <alvgaona@gmail.com>"]
+channels = ["conda-forge", "robostack-staging"]
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+opencv = ">=4.12.0,<5"
+python = ">=3.13.7,<3.14"
+ruff = ">=0.13.1,<0.14"
+
+[pypi-dependencies]
+roboflow = ">=1.1.4, <2"
